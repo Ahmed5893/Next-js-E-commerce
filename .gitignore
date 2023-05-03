@@ -1,0 +1,59 @@
+Skip to content
+Search or jump to…
+Pull requests
+Issues
+Codespaces
+Marketplace
+Explore
+ 
+@Ahmed5893 
+Ahmed5893
+/
+to-do-list-with-alan-ai
+Public
+Fork your own copy of Ahmed5893/to-do-list-with-alan-ai
+Code
+Issues
+Pull requests
+Actions
+Projects
+Wiki
+Security
+Insights
+Settings
+Beta Try the new code view
+to-do-list-with-alan-ai/.gitignore
+@Ahmed5893
+Ahmed5893 Initialize project using Create React App
+Latest commit c0a1656 on Jan 9
+ History
+ 1 contributor
+23 lines (18 sloc)  310 Bytes
+ 
+
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+node_modules/
+
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# production
+/build
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*

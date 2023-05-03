@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Shantell+Sans:ital@1&display=swap");
+
+.logo {
+  font-family: "Shantell Sans", cursive;
+  letter-spacing: 8px;
+}
+
+@layer utilities {
+  input[type="number"]::-webkit-inner-spin-button,
+  input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+}
+
+.card {
+  @apply mb-5  block   rounded-lg border border-gray-200  shadow-md;
+}
+.alert-error {
+  @apply my-3 rounded-lg bg-red-100 p-3 text-red-700;
+}
+
+.alert-success {
+  @apply my-3 rounded-lg bg-green-100 p-3 text-green-700;
+}
